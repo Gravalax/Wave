@@ -1,0 +1,46 @@
+.promo {
+	min-height: 1080px;
+	padding: 50px 0 90px;
+	background: url("../img/promo/bg-promo.jpg") center center / cover no-repeat;
+
+    position: relative;
+
+    &__logo {
+        width: 60px;
+        height: 63px;
+
+        position: absolute;
+        left: 60px;
+        top: 35px;
+    }
+
+
+	&__title {
+		margin-top: 255px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 200px;
+        line-height: 235px;
+        text-align: center;
+        letter-spacing: 0.6px;
+        color: #0D302C;
+    }
+
+	&__subtitle {
+        font-family: 'Roboto Condensed';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.6px;
+        color: #000000;
+		}
+
+	&__more {
+		display: block;
+		margin: 0 auto;
+		margin-top: 315px;
+	}
+}

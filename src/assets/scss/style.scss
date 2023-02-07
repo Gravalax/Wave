@@ -1,0 +1,23 @@
+
+*,
+*::after,
+*::before {
+   box-sizing: border-box;
+}
+
+.container_relative {
+   position: relative !important;
+}
+
+@import 'base/variables.scss';
+@import 'base/mixin.scss';
+@import 'base/fonts.scss';
+@import 'base/media.scss';
+
+
+@import 'blocks/promo.scss';
+@import 'blocks/nav.scss';
+
+
+
+
